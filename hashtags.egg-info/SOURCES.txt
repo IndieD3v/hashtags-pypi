@@ -1,0 +1,6 @@
+setup.py
+hashtags/__init__.py
+hashtags.egg-info/PKG-INFO
+hashtags.egg-info/SOURCES.txt
+hashtags.egg-info/dependency_links.txt
+hashtags.egg-info/top_level.txt

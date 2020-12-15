@@ -1,59 +1,52 @@
-# from setuptools import setup
-
-# setup(
-#     name="All Hashtags",
-#     version="1.4", 
-#     description="",
-#     author="In Dev",
-#     packages=["hashtags"],
-#     install_requires=[]
-# )
-
 import setuptools
-
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
 
 setuptools.setup(
     name="hashtags",
-    version="1.4",
+    version="1.9",
     author="In Dev",
     author_email="tanmaymakode76@gmail.com",
-    description="A small example package",
+    description="A package to get best hashtags",
     long_description="""
-# Install
-windows ``` pip install hashtags```
-linux   ``` pip3 install hashtags```
+
+# Installation
+
+``` pip install hashtags```
 
 # Hashtag Package
 
 This is a hashtag package. You can use
-to make your social account grow faster.
+to make your social account grow faster
 by using this hashtag package.
+It can provide you best hashtags,and also provide hashtags by location
 
-# Examples
+# Usage
+
+### Examples
 
 - best_hashtags
 - top_hashtags
 - hashtag_by_location
 
-## Using the package
-
 ```python
     import hashtags
 
-    a = hashtags.best_hashtags('category')#eg ('code')('cars')
+    a = hashtags.best_hashtags('category')
+    #                           ('code')
 
     b = hashtags.top_hashtags()
 
     c = hashtags.hashtag_by_location('country','category')
-    #eg                         ('us','food')('in','games')
+    #                                   ('us','food')
 
 ```
-> All countries are available **use only short names eg _in,us_**
+> All countries are available 
+**use only short names eg  _in,us_**
+
+<a href="https://www.patreon.com/bePatron?u=46563102"><img src='https://d33wubrfki0l68.cloudfront.net/d0ed447d8355bce531d091c60296ae2b823d9301/dfb24/assets/img/patron.png'/></a>
+
 """,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/IndieD3v/hashtags-pypi",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
